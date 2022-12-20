@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <form action="#">Number</form>
+    <input type="btn" name="#" value="#">
 </body>
 </html>
