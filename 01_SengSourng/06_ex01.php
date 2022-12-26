@@ -16,8 +16,6 @@
         echo "<br>";
 
         echo 'Your age is :$age';  //អថេរមិនអាចសរសេរក្នុង​ single quote បានទេ
-
-
     ?>    
 
 
