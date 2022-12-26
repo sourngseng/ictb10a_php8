@@ -1,5 +1,5 @@
 <?php
-    <?php
+    
     $txt = "Hello my name is Chha";
     $num = 123456;
     $colors = array ("Red","Green","Blue");
@@ -19,7 +19,7 @@
 
 
 
-?>
+
 
 
 ?>
