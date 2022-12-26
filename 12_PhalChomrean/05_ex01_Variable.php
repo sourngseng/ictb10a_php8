@@ -17,7 +17,7 @@
      Output in Php.Frist we write echo the we write variable behind the echo without single quot or double qout and end with semicolon.</p>';
     echo "<p style='color:red;'>Example: echo $text3;</p>";
     echo "<br>";
-    echo"<a href='05_ex01_Variable.php'>link to 05_ex01_Variable.php</a>"; echo "<br>";
-    echo "<a href='06_ex01_Datatype.php'>link to 06_ex01_Datatype.php</a>"; echo "<br>";
-    echo "<a href='06_ex02_Datatype.php'>link to 06_ex02_Datatype.php</a>"; echo "<br>";
+    echo"<a href='05_ex01_Variable.php' style='color:red;'>link to 05_ex01_Variable.php</a>"; echo "<br>";
+    echo "<a href='06_ex01_Datatype.php' style='color:red;' >link to 06_ex01_Datatype.php</a>"; echo "<br>";
+    echo "<a href='06_ex02_Datatype.php' style='color:red;'>link to 06_ex02_Datatype.php</a>"; echo "<br>";
 ?>
