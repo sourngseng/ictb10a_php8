@@ -3,10 +3,10 @@
 <body>
 
 <?php   
-    $company = "I learned PHP by Seng sourng";  
-    echo "Hello $company";  
+    $hai = "I learned PHP by Seng sourng";  
+    echo "Hello; $hai";  
     echo "</br>";  
-    echo 'Hello $company';  
+     
 ?>  
 
 </body>

@@ -5,5 +5,5 @@ $color =array("Red","Blue","Green");
 echo $txt;
 echo "<br> $num";
 echo "<br>";
-echo $color[0];
+echo $color[2];
 ?>
