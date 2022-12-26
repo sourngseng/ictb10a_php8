@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,37 +11,76 @@
             src: url(KHMEROSBATTAMBANG.TTF);
         }
         body{
-             font-family:battambong;
+            font-family:battambong;
         }
+        .cl{
+        padding:0px 20px 20px;
+        border-style:solid;
+        border-radius:20px;
+        background-color:yellowgreen;
+        border-width:0px;
+       }
+       .css1{
+        border-radius:10px;
+        height:30px;
+        width:40%;
+        border-width:0;
+       }
+       .css2{
+        margin-top:10px;
+        height:40px; width: 100px;
+        background-color:#07efec;
+        border-radius:10px;
+       }
+       .cl1{
+        border:solid;
+        border-radius:20px;
+        background-color:#07efab;
+        border-width:0px;
+        padding:0px 20px 20px;
+       }
     </style>
 </head>
 <body>
-   <div>
+   <?php
+   @$fname=$_POST['firstname'];
+   @$lname=$_POST['lastname'];
+   @$gend=$_POST['gender'];
+   ?>
+   <div class="cl">
     <form action="06_ex02_form.php" method="post">
-       <h3>បញ្ជូលព័ត៍មាន</h3>
-        <div>
-            <label for="firstname">នាមត្រកូល</label><br>
-            <input type="text" id="firstname" name="firstname" value="នាមត្រកូល"><br>
-            <label for="lastname">នាមខ្លូន</label><br>
-            <input type="text" id="lastname" name="lastname" value="នាមខ្លូន"><br>
+       <h3 style="padding-top:15px;">បញ្ជូលព័ត៍មាន</h3>
+        <div >
+            <label for="fname">នាមត្រកូល</label><br>
+            <input class="css1" type="text" id="fname" name="firstname" value="នាមត្រកូល"><br>
+            <label for="lname">នាមខ្លូន</label><br>
+            <input class="css1" type="text" id="lname" name="lastname" value="នាមខ្លូន"><br>
         </div>
         <div>
             <label>ភេទ</label><br>
-            <input type="radio" id="male" name="gender" value="male">
+            <input type="radio" id="male" name="gender" value="ប្រុស">
             <label for="male">ប្រុស</label><br>
-            <input type="radio" id="female" name="gender" value="female">
+            <input type="radio" id="female" name="gender" value="ស្រី">
             <label for="female">ស្រី</label>
         </div>
         <div>
             <label for="color">ជ្រើសរើសពណ៍</label><br>
-            <select name="color" id="color" width="200px">
-                <option value="color">red</option>
+            <select class="css1" name="color" id="color" width="200px">
+                <option value="color">Red</option>
             </select>
         </div>
         <div>
-            <input type="submit" value="DisplayData">
+            <input class="css2" type="submit" value="DisplayData">
         </div>
     </form>
    </div>
+   <div class="cl1">
+    <h3 style="padding-top:15px;">លទ្ធផលក្រោយSubmit</h3>
+    <?php
+        echo "Your First Name:" . $fname . "<br>"; 
+        echo "Your Last Name:" . $lname . "<br>";
+        echo "Your Gender:" . $gend . "<br>";
+    ?>
+   </div>
 </body>
-</html> -->
+</html>
