@@ -26,4 +26,8 @@
     echo"<br>";
     echo"<p style='text-indent:20px;'>This is all the characters of the string variable if you not sure about it you can count it by yourself.</p>";
     echo strlen($txt3);
+    echo "<br>";
+    echo"<a href='05_ex01_Variable.php'>link to 05_ex01_Variable.php</a>"; echo "<br>";
+    echo "<a href='06_ex01_Datatype.php'>link to 06_ex01_Datatype.php</a>"; echo "<br>";
+    echo "<a href='06_ex02_Datatype.php'>link to 06_ex02_Datatype.php</a>"; echo "<br>";
 ?>

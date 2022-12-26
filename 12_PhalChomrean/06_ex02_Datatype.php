@@ -31,4 +31,8 @@
     echo $txt6;
     echo "<p>Now see it all Reverse</p>";
     echo strrev($txt6);
+    echo "<br>";
+    echo"<a href='05_ex01_Variable.php'>link to 05_ex01_Variable.php</a>"; echo "<br>";
+    echo "<a href='06_ex01_Datatype.php'>link to 06_ex01_Datatype.php</a>"; echo "<br>";
+    echo "<a href='06_ex02_Datatype.php'>link to 06_ex02_Datatype.php</a>"; echo "<br>";
 ?>
