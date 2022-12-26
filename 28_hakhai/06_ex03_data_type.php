@@ -7,7 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="#">Number</form>
-    <input type="btn" name="#" value="#">
+    <?php
+    $int=57;
+    var_dump($int);
+    echo"Your age is :".$age;
+    echo"<br>";
+    echo"Your age is :$age";
+    echo'Your age is :$age';
+    
+
+
+    ?>
 </body>
 </html>
