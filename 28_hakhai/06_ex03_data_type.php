@@ -10,13 +10,10 @@
     <?php
     $int=57;
     var_dump($int);
-    echo"Your age is :".$age;
+    echo"Your age is :$int";
     echo"<br>";
-    echo"Your age is :$age";
-    echo'Your age is :$age';
-    
-
-
+    echo"Your age is :$int";
+    //echo'Your age is :$int';
     ?>
 </body>
 </html>
