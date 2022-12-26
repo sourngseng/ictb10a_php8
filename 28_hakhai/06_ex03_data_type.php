@@ -7,6 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <?php
+    $int=57;
+    var_dump($int);
+    echo"Your age is :".$age;
+    echo"<br>";
+    echo"Your age is :$age";
+    echo'Your age is :$age';
+    
+
+
+    ?>
 </body>
 </html>
