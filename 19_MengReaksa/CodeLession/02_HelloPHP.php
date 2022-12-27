@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Domo PHP8 with DataType</title>
+    <title>PHP Application</title>
 </head>
 <body>
     <?php
-        $age=30;
-        // var_dump($age);
-        echo "Your age is :".$age;
-        echo "<br>";
-    ?>
+
+        // Display greeting message
+
+        echo "Hello World!";
     
+    ?>
 </body>
 </html>
