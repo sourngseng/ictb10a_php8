@@ -25,6 +25,7 @@
     </form>
 <h3>
     <?php 
+    echo "Hello";
     echo "ឈ្មោះរបស់អ្នកគឹ​ :". $fName." ". $lName;
     ?>
 </h3>
