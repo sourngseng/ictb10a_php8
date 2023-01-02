@@ -7,19 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-<?php
-    
-echo "Welcome to my testing";
-echo "<br>";
-$txt ="Hello world!";
-$num ='123456789';
-$colors = array("blue" , "red" , "wite","123");
-var_dump($colors);
-echo $txt;
-echo "<br>  $num"; 
-echo "<br>";
-echo $colors[0];
-var_dump($num);
-?>
+    <?php
+    $int=57;
+    var_dump($int);
+    echo"Your age is :$int";
+    echo"<br>";
+    echo"Your age is :$int";
+    //echo'Your age is :$int';
+    ?>
 </body>
 </html>
