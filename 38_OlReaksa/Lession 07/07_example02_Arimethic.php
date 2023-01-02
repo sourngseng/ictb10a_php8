@@ -29,7 +29,6 @@
     $x %= 15;
     echo $x; // Outputs: 10
     echo "<br>";
-
 ?>
 
 <?php
