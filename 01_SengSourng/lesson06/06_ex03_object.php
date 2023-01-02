@@ -38,8 +38,8 @@
 
         $person=new People();
         $person->setName($fName,$lName);
-
     ?>
+    
     <form action="06_ex03_object.php" method="post">
         <div style="margin-bottom: 15px;">
             <label for="fname">First Name:</label>
@@ -51,6 +51,7 @@
         </div>        
         <input style="margin-left: 120px;" type="submit" value="Save">
     </form>
+
     <h3>
         <?php
         //បង្ហាញតម្លៃចេញពីអថេរដែលបានប្រកាស $fName និង $lName
