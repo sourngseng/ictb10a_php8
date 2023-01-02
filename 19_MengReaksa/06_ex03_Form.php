@@ -50,8 +50,7 @@
             // Display input
             @$fname = $_POST ['firstname'];
             @$lname = $_POST ['lastname'];
-
-            @$sname = $_POST ['male'];
+            @$gender = $_POST ['gender'];
             // @$Msex = $_POST ['male'];
             // @$Fsex = $_POST ['female'];
             // @$color = $_post ['primary'];
@@ -68,19 +67,17 @@
             <input type="text" id="lname" name="lastname" placeholder=" នាមខ្លួន ">
 
              <h4> ភេទ </h4>
-             <label for="sname"> Male </label>
-            <input type="radio" id="sname" name="male">
-
+             
             
-            <!-- <input type="radio" id="male" name="sex"> 
-            <label for="male"> ប្រុស </label> <br> -->
+            <input type="radio" id="gender" name="gender"> 
+            <label for="male"> ប្រុស </label> <br>
 
-            <!-- <input type="radio" id="female" name="sex"> 
-            <label for="female"> ស្រី </label> <br> -->
+            <input type="radio" id="gender" name="gemder"> 
+            <label for="female"> ស្រី </label> <br>
 
-            <h4> ជ្រើសរើសព័ណ៌ </h4>
-            <!-- <label for="country"> ជ្រើសរើសព័ណ៌ </label> -->
-            <!-- <select id="color" name="color">
+            <!-- <h4> ជ្រើសរើសព័ណ៌ </h4>
+            <label for="country"> ជ្រើសរើសព័ណ៌ </label>
+            <select id="color" name="color">
             <option value=" primary "> Primary </option>
             <option value=" blue "> Blue </option>
             <option value=" red "> Red </option>
@@ -97,7 +94,7 @@
             echo "<br>";
             echo "Last Name: " .$lname;
             echo "<br>";
-            echo "Gender: " .$sname;
+            echo "Gender: " .$sex;
         ?>
     </h2>
 
