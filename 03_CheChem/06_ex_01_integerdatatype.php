@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        $age=30
+        $age=30;
         // var_dump($age);
         echo "Your age is :".$age;
         echo "<br>";

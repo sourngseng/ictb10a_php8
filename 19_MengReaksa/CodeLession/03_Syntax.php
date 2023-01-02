@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Simple PHP File </title>
 </head>
 <body>
-    <?php
-    $int=57;
-    var_dump($int);
-    echo"Your age is :$int";
-    echo"<br>";
-    echo"Your age is :$int";
-    //echo'Your age is :$int';
-    ?>
+    
+    <h1>
+
+        <?php
+    
+            echo " Hello, World! ";
+
+        ?>
+
+    </h1>
+
 </body>
 </html>
