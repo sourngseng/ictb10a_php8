@@ -7,6 +7,14 @@
     <title>Document</title>
 </head>
 <body>
+
+<form action="#" method="post">
+    <label for="number">Number</label>
+    <input type="text" name="number">
+   
+    <input type="button" value="Submit">
+
+</form>
     
 </body>
 </html>
