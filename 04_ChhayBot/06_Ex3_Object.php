@@ -33,15 +33,17 @@
 
     $person=new People();
     $person->setName($fName,$lName);
-    ?>
+
+?>
     <form action="06_Ex3_Object.php" method="post">
         <div style="margin-bottom: 15px;">
-        <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lastname">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="firstName">
     </div>
         <div style="margin-bottom: 15px;">
         <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lastname ">
+        <input type="text" id="lname" name="lastName ">
+    </div>
     <input style="margin-left: 10px;" type="submit"value ="Save">
     </form>
     <h3>
