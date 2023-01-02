@@ -2,15 +2,10 @@
     $x = 10;
     $y = 4;
 
-    //echo("Result of $x + $y =" .$x + $y); // 0utputs: 14
-    //echo "<br>";
-
-    //echo("Result of $x - $y =" .$x - $y); // 0utputs: 6
-    //echo "<br>";
-    echo("Result of $x +$y =" .$x - $y); // 0utputs: 40
+    echo("Result of $x + $y =" . $x + $y); // 0utputs: 14
     echo "<br>";
 
-    echo("Result of $x - $y =" . $x + $y); // 0utputs: 2.5
+    echo("Result of $x - $y =" .$x - $y); // 0utputs: 6
     echo "<br>";
 
     echo("Result of $x x $y =" .$x * $y); // 0utputs: 40

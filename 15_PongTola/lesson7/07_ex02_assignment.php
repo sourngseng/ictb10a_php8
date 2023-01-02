@@ -1,37 +1,12 @@
-<?php
-
-
-    $x = 10;
-    echo $x; // Outputs: 10
-    echo "<br>";
-
-    $x = 20;
-    $x += 30;
-    echo $x; // Outputs: 50
-    echo "<br>";
-
-    $x = 50;
-    $x -= 20;
-    echo $x; // Outputs: 30
-    echo "<br>";
-
-    $x = 5;
-    $x *= 25;
-    echo $x; // Outputs: 125
-    echo "<br>";
-
-    $x = 50;
-    $x /= 10;
-    echo $x; // Outputs: 5
-    echo "<br>";
-
-    $x = 100;
-    $x %= 15;
-    echo $x; // Outputs: 10
-    echo "<br>";
-
-?>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 <?php
     $sum=0;
     if(isset($_POST['submit'])){  
@@ -61,4 +36,8 @@
 
 </form>
 
-<h2>Result of Sum=<?php echo $sum; ?></h2>
+
+    <h2>Result of Sum=<?php echo $sum; ?></h2>
+
+</body>
+</html>

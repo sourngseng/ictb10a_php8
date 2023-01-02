@@ -29,7 +29,6 @@
     $x %= 15;
     echo $x; // Outputs: 10
     echo "<br>";
-
 ?>
 
 <?php
@@ -60,5 +59,6 @@
     <button style="margin-left: 20px;" type="submit" name="submit">Calculate</button>
 
 </form>
+
 
 <h2>Result of Sum=<?php echo $sum; ?></h2>
