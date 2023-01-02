@@ -33,7 +33,7 @@
 
     ?>
     <form actoin="06_ex03_object.php" method="post">
-        <div style="margin-bottom: 15px;">
+        <div style="margin-bottom: 15px;>
              <label for="fname">First Name:</label>
              <input type="text" id="fname" name="firstName">
         </div>
