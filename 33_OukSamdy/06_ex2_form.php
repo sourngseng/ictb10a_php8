@@ -10,6 +10,12 @@
     <?php
       @$fName=$_POST['firstName'];
       @$lName=$_POST['lastname'];
+
+      //Create Object from class people
+      // $objectName ClassName;
+
+      $person=new people();
+      $person->setName
     ?>
     <form action="06_ex2_form.php" method="post">
         <div style="margin-buttom: 15px;">
