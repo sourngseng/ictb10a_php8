@@ -46,7 +46,7 @@
     }  
 ?>
 
-<form action="07_ex02_Assignment.php" method="post">
+<form action="07_ex02_arithmetic_and_assignment.php" method="post">
    <div style="padding: 15px;">
         <label for="num1">Number 1:</label>
         <input type="number" name="num1">
