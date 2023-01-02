@@ -7,19 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-<?php
+
+<form action="#" method="post">
+    <label for="number">Number</label>
+    <input type="text" name="number">
+   
+    <input type="button" value="Submit">
+
+</form>
     
-echo "Welcome to my testing";
-echo "<br>";
-$txt ="Hello world!";
-$num ='123456789';
-$colors = array("blue" , "red" , "wite","123");
-var_dump($colors);
-echo $txt;
-echo "<br>  $num"; 
-echo "<br>";
-echo $colors[0];
-var_dump($num);
-?>
 </body>
 </html>
