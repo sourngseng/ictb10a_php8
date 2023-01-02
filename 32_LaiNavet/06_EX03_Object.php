@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tesing DataType with Form</title>
+    <title>Test Form with object</title>
 </head>
 <body>
     <?php 
@@ -40,7 +40,7 @@
         $person->setName($fName,$lName);
 
     ?>
-    <form action="06_ex03_object.php" method="post">
+    <form action="06_EX03_Object.php" method="post">
         <div style="margin-bottom: 15px;">
             <label for="fname">First Name:</label>
             <input type="text" id="fname" name="firstName">
@@ -53,11 +53,7 @@
     </form>
     <h3>
         <?php
-        //បង្ហាញតម្លៃចេញពីអថេរដែលបានប្រកាស $fName និង $lName
-        // echo "ឈ្មោះរបស់អ្នកគឺ : ". $fName . " " . $lName;
         echo "ឈ្មោះពេញរបស់អ្នកគឺ : ". $person->showFullName();
-
-        var_dump($person);
         ?>
     </h3>
 </body>
