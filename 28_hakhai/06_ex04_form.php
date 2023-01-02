@@ -8,21 +8,23 @@
 </head>
 <body>
     <?php
-        $fName =$_POST['FirstName'];
-        $lName =$_POST['LastName'];
+        @$fName=$_POST['firstName'];
+        @$lName=$_POST['lastName'];
     ?>
-    <form action="06_ex03_data_type.php" method="post"><
+    <form action="06_ex04_form.php" method="post">
+        <div>
         <label for="fName">First Name:</label>
-        <input type="text" id="fName" name="FirstName">    
+        <input type="text" id="fName" name="firstName">    
         <br>
         <label for="lName">Last Name:</label>
-        <input type="text" id="lName" name="LastName">  
+        <input type="text" id="lName" name="lastName">  
         <br>  
+        </div>
         <input type="submit" value="save">
-    /form>
+    </form>
     <h1>
     <?php
-        echo"My name is:".$fName. " " .$lName;
+        echo "Your name:". $fName . " " . $lName;
     ?>
     </h1>
 </body>
