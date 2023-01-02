@@ -54,10 +54,7 @@
    @$fname=$_POST['firstname'];
    @$lname=$_POST['lastname'];
    @$gend=$_POST['gender'];
-//    @$re=$_POST['red'];
-//    @$blu=$_POST['blue'];
-//    @$yel=$_POST['yellow'];
-//    @$pur=$_POST['purple']
+   @$colors=$_POST['color']
    ?>
    <div class="cl">
     <form action="06_ex02_form.php" method="post">
@@ -92,26 +89,9 @@
    <div class="cl1">
         <h2 style="padding-top:10px;">លទ្ធផលក្រោយSubmit</h2>
         <?php
-             echo "Your First Name: " . $fname . "<br>"; 
-             echo "Your Last Name: " . $lname . "<br>";
-             echo "Your Gender: " . $gend . "<br>";
-            // if ($rd=="red"){
-            //     echo "Your First name:<p style='background-color:red;'>" . $fname . "</p>";
-            //     echo "Your Last name: <p style='background-color:red;'>" . $lname . "</p>" ;
-            //     echo "Your Gender: <p style='background-color:red;'>" . $gend . "</p>" ;
-            // }elseif($yel){
-            //     echo "Your First name:<p style='background-color:yellow;'>" . $fname . "</p>";
-            //     echo "Your Last name: <p style='background-color:yellow;'>" . $lname . "</p>" ;
-            //     echo "Your Gender: <p style='background-color:yellow;'>" . $gend . "</p>" ;
-            // }elseif($blu){
-            //     echo "Your First name:<p style='background-color:blue;'>" . $fname . "</p>";
-            //     echo "Your Last name: <p style='background-color:blue;'>" . $lname . "</p>" ;
-            //     echo "Your Gender: <p style='background-color:blue;'>" . $gend . "</p>" ;
-            // }elseif($pur){
-            //     echo "Your First name:<p style='background-color:purple;'>" . $fname . "</p>";
-            //     echo "Your Last name: <p style='background-color:purple;'>" . $lname . "</p>" ;
-            //     echo "Your Gender: <p style='background-color:purple;'>" . $gend . "</p>" ;
-            // }
+             echo "Your First Name : " . $fname . "<br>"; 
+             echo "Your Last Name : " . $lname . "<br>";
+             echo "Your Gender : " . $gend . "<br>";
         ?> 
    </div>
 </body>
