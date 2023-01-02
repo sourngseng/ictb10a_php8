@@ -7,6 +7,13 @@
     <title>Domo PHP8 with DataType</title>
 </head>
 <body>
+    <?php 
+    //Class Definition
+    class greeting
+    // properties
+    public $str = ""
+    
+    ?>
     <?php
     //កូដខាងក្រោមនេះគឺដើម្បីចាប់តម្លៃពី ​input control តាមឈ្មោះរបស់
     @$fName=$_POST['firstName'];
