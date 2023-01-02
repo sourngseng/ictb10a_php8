@@ -7,11 +7,32 @@
     <title>Tesing DataType with From</title>
 </head>
 <body>
-<?php 
-    @$fName=$_POST['firstName'];
-    @$lName=$_POST['lastName'];
+    <?php
+        class people{
+            private $fName;
+            private $lName;
+            
+            public function setName($first_name,$last_name)
+            {
+                $this->fName=$first_name;
+                $this->lName=$last_name;
+            }
+
+            public function showFullName()
+            {
+                return ($this->fName ." ".$this->lName);
+            }
+        }
     ?>
-    <form actoin="06_ex01_form.php" method="post">
+    <?php 
+        @$fName=$_POST['firstName'];
+        @$lName=$_POST['lastName'];
+
+        @$person=new people();
+        @$person->setName($fName,$lName);
+
+    ?>
+    <form actoin="06_ex03_object.php" method="post">
         <div style="margin-bottom: 15px;">
              <label for="fname">First Name:</label>
              <input type="text" id="fname" name="firstName">
@@ -24,7 +45,8 @@
     </form>
     <h3>
         <?php 
-        echo "ឈ្មោះរបស់អ្នកគឺ​ : " . $fName . " " . $lName;
+        echo "ឈ្មោះពេញរបស់អ្នកគឺ​ : ". $person->showFullName();
+
         ?>
     </h3>
 </body>
