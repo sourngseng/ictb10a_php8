@@ -8,11 +8,33 @@
 </head>
 <body>
     <?php
-    @$fname=$_POST['fistName'];
-    @$lname=$_POST['lastName'];
+    class People{
+        private $fName;
+        private $lName;
+        public function setName ($first_name,$last_name)
+        {
+            $this->fName = $first_name;
+            $this->lName = $last_name;
+
+        }
+        
+            public function showFullName()
+        {
+            return ($this->fName . " " . $this->lName);
+        }
+    }
     ?>
     
-    <form action="06_ex02_form.php" method="post">
+    <?php
+    @$fname=$_POST['fistName'];
+    @$lname=$_POST['lastName'];
+
+    $person = new People();
+    $person->setName($fName, $lName);
+
+    ?>
+    
+    <form action="06_ex03_Object.php" method="post">
         <div style="margin-bottom: 15px;">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstName">
