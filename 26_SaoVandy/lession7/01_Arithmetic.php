@@ -7,14 +7,13 @@
         <title>Document</title>
 </head>
 <body>
-         <?php
-         $x = 10;
-         $y =4;
-         echo ($x + $y); //outputs :14
-         echo ($x - $y); //outputs :6
-         echo ($x * $y);  //outputs :40
-         echo  ($x / $y);   //outputs :2.5
-         echo ($x % $y);   //outputs :2
-         ?>                     
+        <?php
+                $x = 10;
+                echo ($x + $y); //outputs :14
+                echo ($x - $y); //outputs :6
+                echo ($x * $y);  //outputs :40
+                echo  ($x / $y);   //outputs :2.5
+                echo ($x % $y);   //outputs :2
+        ?>                     
 </body>
 </html>
