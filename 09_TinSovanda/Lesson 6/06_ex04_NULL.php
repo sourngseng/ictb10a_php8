@@ -11,21 +11,21 @@
         @$fName=$_POST['firstName'];
         @$lName=$_POST['lastName'];
     ?>
-    <form action="06_ex04_form.php" method="post">
-        <div>
+<form action="06_ex02_form.php" method="post">
+    <div style="margin-bottom: 15px;">
         <label for="fName">First Name:</label>
-        <input type="text" id="fName" name="firstName">    
-        <br>
+        <input type="text" id="fname" name="firstName">
+    </div>
+    <div style="margin-bottom: 15px;">
         <label for="lName">Last Name:</label>
-        <input type="text" id="lName" name="lastName">  
-        <br>  
-        </div>
-        <input type="submit" value="save">
-    </form>
-    <h1>
+        <input type="text" id="lname" name="lastName">
+    </div>
+    <input type="submit" value="Save">
+</form>
+<h3>
     <?php
-        echo "Your name:". $fName . " " . $lName;
+    echo "ឈ្មោះរបស់អ្នកគឺ : ". $fName . " " . $lName;
     ?>
-    </h1>
+</h3>
 </body>
 </html>
