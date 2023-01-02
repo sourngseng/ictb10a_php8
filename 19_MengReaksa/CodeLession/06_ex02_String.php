@@ -24,7 +24,18 @@
             echo $txt;
             echo " <br> ";
 
+            $my_str = ' World';
+            echo " Hello , $my_str! <br> ";
+            echo ' Hello , $my_str! <br> ';
+
+            echo ' <pre> Hello \t World!</pre> ';
+            echo " <pre> Hello \t World!</pre> ";
+            echo ' I\'ll be back' ;
+            echo " <br> ";
+
         ?>
+
+
 
     </h1>
 
