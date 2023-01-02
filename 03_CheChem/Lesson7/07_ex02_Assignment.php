@@ -1,33 +1,32 @@
 <?php
 
-
     $x = 10;
-    echo $x; // Outputs: 10
+    echo $x; 
     echo "<br>";
 
     $x = 20;
     $x += 30;
-    echo $x; // Outputs: 50
+    echo $x;
     echo "<br>";
 
     $x = 50;
     $x -= 20;
-    echo $x; // Outputs: 30
+    echo $x;
     echo "<br>";
 
     $x = 5;
     $x *= 25;
-    echo $x; // Outputs: 125
+    echo $x;
     echo "<br>";
 
     $x = 50;
     $x /= 10;
-    echo $x; // Outputs: 5
+    echo $x;
     echo "<br>";
 
     $x = 100;
     $x %= 15;
-    echo $x; // Outputs: 10
+    echo $x;
     echo "<br>";
 
 ?>
@@ -46,7 +45,7 @@
     }  
 ?>
 
-<form action="07_ex02_arithmetic_and_assignment.php" method="post">
+<form action="07_ex02_Assignment.php" method="post">
    <div style="padding: 15px;">
         <label for="num1">Number 1:</label>
         <input type="number" name="num1">
