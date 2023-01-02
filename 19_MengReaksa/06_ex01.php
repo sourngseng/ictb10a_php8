@@ -8,12 +8,8 @@
 </head>
 <body>
     <?php
-    $int=57;
-    var_dump($int);
-    echo"Your age is :$int";
-    echo"<br>";
-    echo"Your age is :$int";
-    //echo'Your age is :$int';
+    $age = 20;
+    echo " Your age is: $age "; ;
     ?>
 </body>
 </html>
