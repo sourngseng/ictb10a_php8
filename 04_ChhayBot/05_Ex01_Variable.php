@@ -1,5 +1,5 @@
 <?php
-    <?php
+
     $txt = "Hello my name is Chha";
     $num = 123456;
     $colors = array ("Red","Green","Blue");
@@ -15,11 +15,4 @@
     echo "<br>";
     echo str_word_count ($txt);
     
-
-
-
-
-?>
-
-
 ?>
