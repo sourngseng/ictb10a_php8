@@ -9,4 +9,11 @@
     echo "<br> $num";
     echo "<br>";
     echo $colors[1];
+
+    // Display Variables
+    print $txt;
+    print "<br>";
+    print $num;
+    print "<br>";
+    print $colors[0];
 ?>
