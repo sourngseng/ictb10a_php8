@@ -45,13 +45,15 @@
         <div style="margin-bottom: 15px;">
             <label for="fname">First Name:</label>
             <input type="text" id ="fname" name="firstName">
-        </div>​​​​​​​
+        ​​​</div>
+
         <div style="margin-bottom: 15px;">
             <label for="fname">Last Name:</label>
             <input type="text" id="lname" name="lastName">
         </div>
         <input style="margin-left:120px;" type="submit" value="Save">
-</form>
+        
+    </form>
 <h3>
     <?php 
         //បង្ហាញតម្លៃចេញពីអថេរដែលបានប្រកាស $fName និង $lName
@@ -63,6 +65,5 @@
     ?>
 </h3>
 
-        
 </body>
 </html>
