@@ -51,6 +51,6 @@
         <label for="num2">Number 2:</label>
         <input type="number" name="num2">
     </div>
-    <button style="margin-left: 15px;" type="submit" name="submit">Calculator</button>
+    <button style="margin-left: 15px;" type="submit" name="submit">Calculate</button>
 </form>
 <h2>Result of Sum=<?php echo $sum; ?></h2>
