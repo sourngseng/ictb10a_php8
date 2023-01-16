@@ -11,7 +11,7 @@
         if(isset($_POST['submit'])){  
             if ($_SERVER["REQUEST_METHOD"] == "POST") {  
                 $numb1=$_POST['num1'];
-            $numb2=$_POST['num2'];
+                $numb2=$_POST['num2'];
             
             $sum=$numb1+$numb2;
             $sub=$numb1-$numb2;
