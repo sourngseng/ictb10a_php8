@@ -7,6 +7,20 @@
     <title>Oject PHP8</title>
 </head>
 <body>
+<?php 
+       //កូដខាងក្រោមនេះគឺដើម្បីចាប់តម្លៃពី Input Control តាមឈ្មោះរបស់វា
+       $fName=$_POST['firstName'];
+       $lName=$_POST['lastName'];
+
+       // បង្កើត Object ចេញពី Class people
+       // $objectName=new ClassName;
+
+       $person=new People();
+       $person->setname($fName,$lName);
+    
+    
+    
+    ?>
     <?php 
     // បង្កើត Class
      class People{
@@ -26,20 +40,6 @@
             return ($this->fName ." ".this$->lName);
         }
      }
-    ?>
-    <?php 
-       //កូដខាងក្រោមនេះគឺដើម្បីចាប់តម្លៃពី Input Control តាមឈ្មោះរបស់វា
-       $fName=$_POST['firstName'];
-       $lName=$_POST['lastName'];
-
-       // បង្កើត Object ចេញពី Class people
-       // $objectName=new ClassName;
-
-       $person=new People();
-       $person->setname($fName,$lName);
-    
-    
-    
     ?>
     <form action="06_ex03_object.php" method="post">
        <div style="margin-buttom: 15px;">

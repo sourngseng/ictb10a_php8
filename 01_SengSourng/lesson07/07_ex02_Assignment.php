@@ -61,5 +61,4 @@
 
 </form>
 
-
 <h2>Result of Sum=<?php echo $sum; ?></h2>
