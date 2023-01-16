@@ -1,12 +1,12 @@
 <?php
 
 
-    $x = 10;
+    $x = 100;
     echo $x; // Outputs: 10
     echo "<br>";
 
     $x = 20;
-    $x += 30;
+    $x += 300;
     echo $x; // Outputs: 50
     echo "<br>";
 
@@ -16,17 +16,17 @@
     echo "<br>";
 
     $x = 5;
-    $x *= 25;
+    $x *= 250;
     echo $x; // Outputs: 125
     echo "<br>";
 
     $x = 50;
-    $x /= 10;
+    $x /= 15;
     echo $x; // Outputs: 5
     echo "<br>";
 
     $x = 100;
-    $x %= 15;
+    $x %= 30;
     echo $x; // Outputs: 10
     echo "<br>";
 
