@@ -24,7 +24,7 @@
 ?>
 
 <div class="container mt-3">
-    <div class="row">
+    <div class="row gx-3">
         <div class="col-md-6 bg-info card pb-5">
             <h2 class="pt-3">បញ្ចូលពត៌មាន</h2>
             <form action="05_ex06_form_array.php" method="post">
