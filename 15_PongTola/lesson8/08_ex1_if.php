@@ -13,5 +13,36 @@
             echo strtoupper("have a good day!");
         }
     ?>
+    <!-- <h1>ការប្រើប្រាស់​<span>if</span>statement</h1>
+    <?php
+        //ការកំណត់ម៉ោងតាមcountrey
+        date_default_timezone_set('Asia/phnom_penh');
+        $mytime=date('H');
+        $tNow=date('H:i:s a');
+    ?>
+    <?php         
+        echo "ពេលនេះម៉ោង : <span>$tNow</span>";
+
+        if($myTime>5){
+            echo "<p>ក្រោកពីគេង</p>";
+            echo "<p>អរុណសួស្តី!</p>";
+        }    
+    ?> -->
+
+<h4>ការប្រើប្រាស់ <span>if </span>statement</h4>
+    <?php
+        //ការកំណត់ល្វែងម៉ោងតាមប្រទេស
+        date_default_timezone_set('Asia/Phnom_Penh');
+        $myTime=date('H');
+        $tNow=date('H:i:s a');
+    ?>
+    <?php         
+        echo "ពេលនេះម៉ោង : <span>$tNow</span>";
+
+        if($myTime>5){
+            echo "<p>ក្រោកពីគេង</p>";
+            echo "<p>អរុណសួស្តី!</p>";
+        }    
+    ?>
 </body>
 </html>
