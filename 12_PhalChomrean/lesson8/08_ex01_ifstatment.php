@@ -13,11 +13,14 @@
     </style>
 </head>
 <body>
+    <?php 
+    @$number=$_POST['number'];
+    ?>
     <h2>Control Statement in PHP 8</h2>
     <hr>
     <h3>Now We are going to use If Statemnt.</h3>
     <p>Now if you Enter the Number 12 it will show you<span> "Thank you"</span></p>
-    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+    <form action="08_ex01_ifstatment.php" method="post">
         <div>
             <label for="num">Enter Number</label>
             <input type="text" id="num" name="number">
@@ -27,16 +30,9 @@
         </div>
     </form>
     <?php 
-      if(isset($_POST['submit'])=="submit"){
-        // $number=null;
-            $number=$_POST['number'];
-            if($number==12){
-              echo "<p>Your Number is 12 so <span>Thank you.</span></p>";
-            }else{
-                echo " Not true!";
-            }
+        if($number==12){
+            echo "<p>Your Number is 12 so <span>Thank you.</span></p>";
         }
-    
     ?>
 </body>
 </html>
