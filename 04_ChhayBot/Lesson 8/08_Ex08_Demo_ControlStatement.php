@@ -7,18 +7,22 @@
     <title>Control Statement</title>
     <style>
         span{
-            color: red;
+            color: gold
+            
+            ;
         }
     </style>
 </head>
 <body>
-    <h3> Using <span>if</span>Statement</h3>
+    <h3> Using <span>if </span>Statement</h3>
     <?php
         date_default_timezone_set('Asia/Phnom_Penh');
             $t = date("h:i:sa");
             echo "<h3> The time is : <span>$t</span> </h3>";
             if ($t < "20") {
                 echo "Have a good day!";
+                echo "<br>";
+                echo "Today We study about PHP";
             }
     ?>
     <hr> 
