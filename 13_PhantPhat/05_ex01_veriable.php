@@ -8,7 +8,7 @@
 </head>
 <body>
 <?php
-
+    
 echo "Welcome to my testing";
 echo "<br>";
 $txt ="Hello world!";
