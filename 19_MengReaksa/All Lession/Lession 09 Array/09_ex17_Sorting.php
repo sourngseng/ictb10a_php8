@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>testing Datatype with form</title>
+    <title> Descending Order by Key </title>
 </head>
 <body>
-  
+    <?php
+    
+    $age = array("Peter" => 20, "Elon Musk" => 51, "Harry" => 30);
 
-
-
-
+    // Sorting array by  value and print 
+    krsort($age);
+    print_r($age);
+    
+    ?>
 </body>
 </html>
