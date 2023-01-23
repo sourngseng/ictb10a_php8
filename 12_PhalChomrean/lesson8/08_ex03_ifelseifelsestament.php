@@ -18,9 +18,10 @@
     ?>
     <h2>Control Statement in PHP 8</h2>
     <hr>
-    <h3>Now We are going to use If else Statemnt.</h3>
-    <p>Now if you Enter the Number 12 it will show you<span> "Thank you"</span> then if you enter the different Number it will show you <span>Your number is wrong try again later.</span></p>
-    <form action="08_ex02_ifelsestament.php" method="post">
+    <h3>Now We are going to use <span> elseif else Statemnt</span>.</h3>
+    <p>The <span> elseif else Statement</span> is the control structure that has a lot of options.</p>
+    <p>Now you going to input the password like<span> 123,456,789 </span>if you input the different password it will show you <span>Please try again later!!!<span>.</p>
+    <form action="08_ex03_ifelseifelsestament.php" method="post">
         <div>
             <label for="num">Enter Number</label>
             <input type="text" id="num" name="number">
@@ -30,10 +31,14 @@
         </div>
     </form>
     <?php 
-        if($number==12){
-            echo "<p>Your Number is 12 so <span>Thank you.</span></p>";
+        if($number==123){
+            echo "<p>Your password is right.</p>";
+        }elseif($number==456){
+            echo "<p>Your password is right.</p>";
+        }elseif($number==789){
+            echo "<p>Your passward is right.</p>";
         }else{
-            echo "<p><span>Your number is wrong try again later.</span></p>";
+            echo "<p><span>Please try again later!!!</span></p>";
         }
     ?>
 </body>
