@@ -10,11 +10,11 @@
     <?php
         $subject=["php","html","css","javascrip"];
             
-            // array_pop($subject);
+             array_pop($subject);
             // var_dump($subject);
             //print_r($subject);
             echo "subject is:";
-            for( $i=0; $i<=4; $i++){
+            for( $i=0; $i<=2; $i++){
                 echo $subject[$i];
                 echo "  ";
             }
