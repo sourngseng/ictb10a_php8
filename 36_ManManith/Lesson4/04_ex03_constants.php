@@ -1,12 +1,12 @@
 <?php
-    //Defining constant
-    define("SITE_URL", "http://www.riptssr.edu.kh/");
-    // using constant
-    echo '<br>Thank You for visiting - ' .SITE_URL;
-    define("database_name", "sourng_db");
-    define("user_name", "root");
-    define("password", "pwd123");
-    echo "<br>My Database name is :". database_name;
-    //define("database_name","my_db");
-    echo "<br>My Database Name is : ".daatabase_name;
-    ?
+    // Defining constant
+    define("SITE_URL", "https://www.rpitsr.edu.kh/");
+    // Using constant
+    echo '<br>Thank you for visiting - ' . SITE_URL;
+    define("databse_name","sourng_db");
+    define("user_name","root");
+    define("password","Pwd123");
+    echo "<br>My Databse name is :". databse_name;
+    // define("databse_name","my_db");
+    echo "<br>My Databse name is :". databse_name;
+?>
