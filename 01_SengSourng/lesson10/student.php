@@ -11,7 +11,6 @@
     
 
     $objStu->initialData($id,$full_name,$gender,$age);
-
     $objStu->getStudentData();
 
 ?>

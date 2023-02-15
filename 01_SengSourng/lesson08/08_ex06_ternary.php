@@ -13,6 +13,7 @@ $num1=$num2=null;
     {
         $num1 = isset($_POST['num1']) ? $_POST['num1'] : null;
         $num2 = isset($_POST['num2']) ? $_POST['num2'] : null;
+        
         $max_value=$num1>$num2?$num1:$num2;
     }
 ?> 

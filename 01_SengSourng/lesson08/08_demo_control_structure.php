@@ -12,9 +12,10 @@
         body{
              font-family: 'Courier New', 'Hanuman', monospace;
         }
+      
     </style>
 </head>
-<body>
+<body style="padding-left: 25px;">
     <h4>ការប្រើប្រាស់ <span>if </span>statement</h4>
     <?php
         //ការកំណត់ល្វែងម៉ោងតាមប្រទេស
@@ -82,8 +83,121 @@
             echo "<p>ឥលូវតម្លៃរបស់ a<b និង b< c គេគឺ :<span>$c</span></p>";
         }
     }
-
-
 ?>
+
+<hr>
+
+<h3>Using <span>Switch</span> Statement</h3>
+    <?php
+        $favcolor = "blue";
+        switch ($favcolor) {
+        case "red":
+            echo "Your favorite color is red!";
+            break;
+        case "blue":
+            echo "Your favorite color is blue!";
+            break;
+        case "green":
+            echo "Your favorite color is green!";
+            break;
+        default:
+            echo "Your favorite color is neither red, blue, nor green!";
+        }
+    ?>
+
+<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+        <p>
+            <label for="date">Your Day:</label>            
+            <input type="date" name="dob">
+            <input type="submit" name="checkDay" value="Submit">
+        </p>
+</form>
+
+
+    <?php
+    // var_dump(!isset($_POST['submit']));
+        if(isset($_POST['checkDay'])){
+
+            $slectDay=$_POST['dob'];
+            // echo $slectDay;
+
+            $d=strtotime($slectDay);
+            echo "Created date is " . date("D,Y-m-d h:i:sa ", $d);
+            echo "<br>";
+            echo "Short Day : " . date("D", $d);
+        
+            $slectDay=date("D", $d);
+        $slectDay=strtolower($slectDay);
+      
+        switch($slectDay){
+            case "mon":
+                $kh_day="ច័ន្ទ";
+                break;
+            case "tue":
+                $kh_day="អង្គារ";
+                break;
+            case "wed":
+                $kh_day="ពុធ";
+                break;
+            case "thu":
+                $kh_day="ព្រហស្បត្តិ៍";
+                break;
+            case "fri":
+                $kh_day="សុក្រ";
+                break;
+            case "sat":
+                $kh_day="សៅរ";
+                break;
+            case "sun":
+                $kh_day="អាទិត្យ";
+                break;
+            default:
+                $kh_day="មិនត្រឹមត្រូវ!";
+        }
+        echo "<p>អ្នកបានជ្រើសរើសថ្ងៃ :<span>$kh_day</span></p>";
+        }
+        
+    ?>
+
 </body>
 </html>
+
+<?php
+    $cars = array("Volvo", "BMW", "Toyota");
+    echo "I like " . $cars[0] . ", " . 
+    $cars[1] . " and " . $cars[2] . ".";
+?>
+
+
+
+<?php
+    $even="";
+    $odd="";
+
+    for($i=1;$i<=50;$i++){
+        if($i%2==0){
+            $even = $even . " " .$i ;
+        }else{
+            $odd = $odd . " " .$i;
+        }
+        echo "The Even no = " . $even."<br/>";
+        echo "The Odd no = " . $odd;
+    }
+
+   
+
+        
+?>
+
+<?php
+    $sub = array(
+        "name" => "peter park",
+        "email" => "peterpark@gmail.com", 
+        "age" => 32
+    );
+    foreach($sub as $key => $value)
+        echo $key . " :" .$value . "<br>";
+?>
+
+
+
